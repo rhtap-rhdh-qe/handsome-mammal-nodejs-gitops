@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: handsome-mammal-nodejs-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/handsome-mammal-nodejs
